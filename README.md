@@ -1,6 +1,6 @@
 # 🧠 MindSense AI — Mental Health Prediction & Chat Support System
 
-> **IEEE Final Year Engineering Project**
+> **IEEE Third Year Engineering Project**
 > An end-to-end AI system for mental health prediction using NLP and Machine Learning, with an empathetic chatbot interface.
 
 ---
@@ -223,7 +223,7 @@ MIT License — Free for academic and educational use.
 
 ## 👥 Contributors
 
-Built as an IEEE Final Year Engineering Project demonstrating:
+Built as an IEEE Third Year Engineering Project demonstrating:
 - Natural Language Processing (NLP)
 - Machine Learning Classification
 - Explainable AI (XAI)
