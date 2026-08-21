@@ -1,0 +1,30 @@
+{
+  "classes": [
+    "anxious",
+    "depressed",
+    "happy",
+    "neutral",
+    "stressed"
+  ],
+  "label_descriptions": {
+    "depressed": "Signs of depression detected in your text",
+    "stressed": "High stress levels detected",
+    "anxious": "Anxiety indicators found in your text",
+    "happy": "Positive emotional state detected",
+    "neutral": "Neutral emotional state"
+  },
+  "label_colors": {
+    "depressed": "#818cf8",
+    "stressed": "#fb923c",
+    "anxious": "#fbbf24",
+    "happy": "#4ade80",
+    "neutral": "#94a3b8"
+  },
+  "label_emoji": {
+    "depressed": "\ud83d\ude14",
+    "stressed": "\ud83d\ude24",
+    "anxious": "\ud83d\ude30",
+    "happy": "\ud83d\ude0a",
+    "neutral": "\ud83d\ude10"
+  }
+}

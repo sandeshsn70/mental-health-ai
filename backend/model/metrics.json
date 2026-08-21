@@ -1,0 +1,17 @@
+{
+  "accuracy": 0.9667,
+  "precision": 0.9714,
+  "recall": 0.9667,
+  "f1_score": 0.9664,
+  "classes": [
+    "anxious",
+    "depressed",
+    "happy",
+    "neutral",
+    "stressed"
+  ],
+  "test_size": 30,
+  "train_size": 170,
+  "cv_mean": 0.985,
+  "cv_std": 0.02
+}

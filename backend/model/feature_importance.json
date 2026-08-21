@@ -1,0 +1,312 @@
+{
+  "anxious": [
+    {
+      "word": "anxiety",
+      "weight": 5.1419
+    },
+    {
+      "word": "constant",
+      "weight": 1.3687
+    },
+    {
+      "word": "anxious",
+      "weight": 1.3089
+    },
+    {
+      "word": "fear",
+      "weight": 1.0956
+    },
+    {
+      "word": "worry",
+      "weight": 1.0387
+    },
+    {
+      "word": "afraid",
+      "weight": 0.9043
+    },
+    {
+      "word": "terrified",
+      "weight": 0.8978
+    },
+    {
+      "word": "scared",
+      "weight": 0.8782
+    },
+    {
+      "word": "anxiety cannot",
+      "weight": 0.7859
+    },
+    {
+      "word": "racing",
+      "weight": 0.7692
+    },
+    {
+      "word": "anxious mind",
+      "weight": 0.7642
+    },
+    {
+      "word": "worried",
+      "weight": 0.7546
+    },
+    {
+      "word": "always",
+      "weight": 0.7355
+    },
+    {
+      "word": "cannot",
+      "weight": 0.7233
+    },
+    {
+      "word": "thoughts",
+      "weight": 0.7037
+    }
+  ],
+  "depressed": [
+    {
+      "word": "depression",
+      "weight": 4.2097
+    },
+    {
+      "word": "depressed",
+      "weight": 2.4651
+    },
+    {
+      "word": "sadness",
+      "weight": 1.1591
+    },
+    {
+      "word": "suffering",
+      "weight": 1.0766
+    },
+    {
+      "word": "dark",
+      "weight": 0.979
+    },
+    {
+      "word": "worthless",
+      "weight": 0.9789
+    },
+    {
+      "word": "pain",
+      "weight": 0.9447
+    },
+    {
+      "word": "every",
+      "weight": 0.8535
+    },
+    {
+      "word": "numb",
+      "weight": 0.8326
+    },
+    {
+      "word": "lost",
+      "weight": 0.8202
+    },
+    {
+      "word": "hope",
+      "weight": 0.7467
+    },
+    {
+      "word": "darkness",
+      "weight": 0.7223
+    },
+    {
+      "word": "crying",
+      "weight": 0.7161
+    },
+    {
+      "word": "invisible",
+      "weight": 0.6825
+    },
+    {
+      "word": "empty",
+      "weight": 0.6639
+    }
+  ],
+  "happy": [
+    {
+      "word": "happy",
+      "weight": 4.4471
+    },
+    {
+      "word": "happiness",
+      "weight": 2.3655
+    },
+    {
+      "word": "grateful",
+      "weight": 1.5532
+    },
+    {
+      "word": "proud",
+      "weight": 0.9983
+    },
+    {
+      "word": "life",
+      "weight": 0.959
+    },
+    {
+      "word": "love",
+      "weight": 0.9233
+    },
+    {
+      "word": "wonderful",
+      "weight": 0.8559
+    },
+    {
+      "word": "blessed",
+      "weight": 0.8269
+    },
+    {
+      "word": "positive",
+      "weight": 0.7964
+    },
+    {
+      "word": "happy proud",
+      "weight": 0.786
+    },
+    {
+      "word": "achievement",
+      "weight": 0.7614
+    },
+    {
+      "word": "working",
+      "weight": 0.7065
+    },
+    {
+      "word": "thriving",
+      "weight": 0.7027
+    },
+    {
+      "word": "connection",
+      "weight": 0.6922
+    },
+    {
+      "word": "joy",
+      "weight": 0.6901
+    }
+  ],
+  "neutral": [
+    {
+      "word": "nothing",
+      "weight": 2.7043
+    },
+    {
+      "word": "neutral",
+      "weight": 2.5388
+    },
+    {
+      "word": "normal",
+      "weight": 1.7899
+    },
+    {
+      "word": "routine",
+      "weight": 1.7522
+    },
+    {
+      "word": "regular",
+      "weight": 1.3849
+    },
+    {
+      "word": "neither",
+      "weight": 1.3438
+    },
+    {
+      "word": "steady",
+      "weight": 1.2756
+    },
+    {
+      "word": "tasks",
+      "weight": 1.188
+    },
+    {
+      "word": "mood",
+      "weight": 1.1403
+    },
+    {
+      "word": "nor",
+      "weight": 1.0378
+    },
+    {
+      "word": "ordinary",
+      "weight": 1.0157
+    },
+    {
+      "word": "comfortable",
+      "weight": 0.9529
+    },
+    {
+      "word": "baseline",
+      "weight": 0.917
+    },
+    {
+      "word": "stable",
+      "weight": 0.9024
+    },
+    {
+      "word": "done",
+      "weight": 0.797
+    }
+  ],
+  "stressed": [
+    {
+      "word": "stressed",
+      "weight": 4.9788
+    },
+    {
+      "word": "pressure",
+      "weight": 2.6123
+    },
+    {
+      "word": "stress",
+      "weight": 1.7432
+    },
+    {
+      "word": "work",
+      "weight": 1.2934
+    },
+    {
+      "word": "stressed cannot",
+      "weight": 1.2558
+    },
+    {
+      "word": "overwhelmed",
+      "weight": 1.1986
+    },
+    {
+      "word": "responsibilities",
+      "weight": 0.9617
+    },
+    {
+      "word": "impossible",
+      "weight": 0.8918
+    },
+    {
+      "word": "deadline",
+      "weight": 0.7889
+    },
+    {
+      "word": "demands",
+      "weight": 0.7816
+    },
+    {
+      "word": "financial",
+      "weight": 0.7238
+    },
+    {
+      "word": "running",
+      "weight": 0.6682
+    },
+    {
+      "word": "much",
+      "weight": 0.6349
+    },
+    {
+      "word": "mind",
+      "weight": 0.618
+    },
+    {
+      "word": "tomorrow",
+      "weight": 0.6155
+    }
+  ]
+}
