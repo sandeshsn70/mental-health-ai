@@ -31,7 +31,14 @@ CORS(app)  # Allow all cross-origin requests (for React frontend)
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_DIR = os.path.join(BASE_DIR, 'model')
-DB_PATH   = os.path.join(BASE_DIR, 'mental_health.db')
+# SQLite path:
+# - Locally: keeps the existing backend/mental_health.db location.
+# - Render: can be overridden with the DB_PATH environment variable.
+#   Example for a persistent disk: /var/data/mental_health.db
+DB_PATH = os.getenv(
+    'DB_PATH',
+    os.path.join(BASE_DIR, 'mental_health.db')
+)
 
 # ─── Load ML Model Artifacts ─────────────────────────────────────────────────
 def load_model():
@@ -102,6 +109,10 @@ def init_db():
     conn.close()
 
 init_db()
+
+print(f"🧠 MindSense AI backend initialized")
+print(f"📦 Model directory: {MODEL_DIR}")
+print(f"🗄️ SQLite database: {DB_PATH}")
 
 
 # ─── Chatbot Response Engine ──────────────────────────────────────────────────
@@ -426,6 +437,16 @@ def helplines():
 
 
 # ─── Run ──────────────────────────────────────────────────────────────────────
+# Render provides the PORT environment variable at runtime.
+# Gunicorn imports this module as `app:app`, so this block is mainly for
+# local development/testing.
 if __name__ == '__main__':
-    print("🧠 Mental Health AI Backend starting on http://localhost:5000")
-    app.run(debug=True, port=5000)
+    port = int(os.environ.get('PORT', 5000))
+    host = os.environ.get('HOST', '0.0.0.0')
+
+    print(f"🧠 Mental Health AI Backend starting on http://{host}:{port}")
+    app.run(
+        host=host,
+        port=port,
+        debug=os.environ.get('FLASK_DEBUG', 'false').lower() == 'true'
+    )
